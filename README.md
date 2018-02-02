@@ -1,2 +1,0 @@
-# testclient
-microservice testclient
