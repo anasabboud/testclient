@@ -23,5 +23,5 @@ EXPOSE 9922
 VOLUME /tmp
 ADD /terg/testclient-1.0.jar testclient-1.0.jar
 #RUN sh -c 'touch /sample-1.0.jar'
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/sample-1.0.jar"]
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/testclient-1.0.jar"]
 #RUN /bin/sh
