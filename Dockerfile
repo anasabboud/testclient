@@ -17,7 +17,7 @@ RUN alternatives --install /usr/bin/javac javac /usr/java/latest/bin/javac 20000
 ENV JAVA_HOME jdk1.8.0_161
 ENV PATH jdk1.8.0_161/bin
 
-EXPOSE 8080
+EXPOSE 9922
 
 #install Spring Boot artifact
 VOLUME /tmp
