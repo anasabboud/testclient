@@ -21,7 +21,7 @@ EXPOSE 8080
 
 #install Spring Boot artifact
 VOLUME /tmp
-ADD /terg/sample-1.0.jar sample-1.0.jar
+ADD /terg/testclient-1.0.jar testclient-1.0.jar
 #RUN sh -c 'touch /sample-1.0.jar'
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/sample-1.0.jar"]
 #RUN /bin/sh
